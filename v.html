@@ -1,0 +1,164 @@
+<html>
+<head>
+	<lang "jap">
+	<style type="text/css">
+
+	body{
+		display: flex;justify-content:center; align-items: center;border-radius: 6px;
+		background-color: black;
+	}
+	#1{grid-area:i1;}#2{grid-area:i2;}#3{grid-area:i3;}
+	#4{grid-area:i4;}#5{grid-area:i5;}#6{grid-area:i6;}
+	#7{grid-area:i7;}#8{grid-area:i8;}#9{grid-area:i9;}
+	#nn{
+		
+		width: 250px;height: 250px;
+		display: grid;
+		grid-template-column: 70px 70px 70px;
+		grid-template-rows: 70px 70px 70px;
+		grid-template-areas:'i1 i2 i3'
+		                      'i4 i5 i6'
+		                      'i7 i8 i9';
+		grid-gap: 3px;
+	}
+	.a{
+         background: #0E4D92;
+         box-shadow: 0px 4px 12px rgba(43,54,65,0.1)
+         border-radius: 6px;
+         width: 70px;
+         height: 70px;
+         position: relative;cursor: pointer;
+         transition: 300ms ease;box-shadow: 9px;
+
+	}
+	p{
+
+		font-family: Roboto, Arial;
+		color: white;
+		font-weight: 900;
+		margin-top: 0;margin-bottom: 0;
+	}
+	.b{
+		position: absolute;
+		top: 50%;left: 50%;
+		transform: translate(-50%,-50%);
+		font-size: 60px;
+		opacity: 1;
+		transition: 250ms ease;
+
+	}
+	.a:hover{
+		background: #0365CF;
+		box-shadow: 0px 4px 12px rgba(43,54,65,0.1);
+		width: 148px;
+	}
+	.a:hover .b{opacity: 0;top: 30%;}
+	.a:hover .c{opacity: 1;top: 50%;}
+.c{
+
+	font-size: 18px;
+	position: absolute;
+	left: 50%;
+	top: 80%;
+	transform: translate(-50%,-50%);
+	opacity: 0;
+	transition: 250ms ease;
+	width: max-content;
+
+}
+button{background-color: red;color: white;margin-top: 100px;margin-left: 100px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</style 
+</head>
+<body>
+<div id="nn">
+
+<div id="1" class="a">
+<p class="b">?</p>
+<p class="c">secret 01</p>	
+</div>
+
+<div id="2" class="a">
+<p class="b">?</p>
+<p class="c">secret 02</p>	
+</div>
+
+<div id="3" class="a">
+<p class="b">?</p>
+<p class="c">secret 03</p>	
+</div>
+
+<div id="4" class="a">
+<p class="b">?</p>
+<p class="c">secret 04</p>	
+</div>
+
+<div id="5" class="a">
+<p class="b">?</p>
+<p class="c">secret 05</p>	
+</div>
+
+<div id="6" class="a">
+<p class="b">?</p>
+<p class="c">secret 06</p>	
+</div>
+
+<div id="7" class="a">
+<p class="b">?</p>
+<p class="c">secret 07</p>	
+</div>
+
+<div id="8" class="a">
+<p class="b">?</p>
+<p class="c">secret 08</p>	
+</div>
+
+<div id="9" class="a">
+<p class="b">?</p>
+<p class="c">secret 09</p>	
+</div>
+
+
+</div>
+<a href="w.html"><button>click</button></a>
+
+
+
+
+</body>
+
+
+</html>
